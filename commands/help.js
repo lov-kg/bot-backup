@@ -5,10 +5,10 @@ const path = require('path');
 async function helpCommand(sock, chatId, message) {
     const helpMessage = `
 ╔═══════════════════╗
-   *🤖 ${settings.botName || 'KnightBot-MD'}*  
+   *🤖 ${settings.botName || 'assistant'}*  
    Version: *${settings.version || '2.0.5'}*
-   by ${settings.botOwner || 'Mr Unique Hacker'}
-   YT : ${global.ytch}
+   by ${settings.botOwner || 'Melly fx'}
+   tT : ${global.ttch}
 ╚═══════════════════╝
 
 *Available Commands:*
@@ -156,7 +156,7 @@ async function helpCommand(sock, chatId, message) {
 ║ ➤ .repo
 ╚═══════════════════╝
 
-Join our channel for updates:`;
+blackie melly was here`;
 
     try {
         const imagePath = path.join(__dirname, '../assets/bot_image.jpg');
@@ -171,7 +171,7 @@ Join our channel for updates:`;
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363161513685998@newsletter',
+                        newsletterJid: null,
                         newsletterName: 'KnightBot MD',
                         serverMessageId: -1
                     }
@@ -185,7 +185,7 @@ Join our channel for updates:`;
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363161513685998@newsletter',
+                        newsletterJid: null,
                         newsletterName: 'KnightBot MD by Mr Unique Hacker',
                         serverMessageId: -1
                     } 
